@@ -30,7 +30,7 @@ for r in range(len(branch)):
 
 
 
-def pde(x,output):
+def eqn(x,output):
     h = 1/N
     U = torch.transpose(output,-1,0)
     x = x.reshape(1,-1)
